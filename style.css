@@ -1,0 +1,42 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.panel--votes { border-radius: 0;}
+  /*.panel--accepted{ border-top-color: #5cb85c;}
+  .panel--review{ border-top-color: #f0ad4e;}*/
+.panel--votes:nth-child(even){ background: #f5f5f5; }
+
+/* Panel Vote area*/
+.panel--votes .media-left{ padding-right: 20px; }
+.panel--votes .thumbnail{
+  padding: 10px 15px; margin-bottom: 5px;
+}
+.panel--votes .votes__count{ font-size: 16px; }
+.panel--votes .votes__text{ font-size: 12px; color: #999; }
+.panel--votes .btn--vote{ padding-top: 2px; padding-bottom: 2px; }
+/*Panel Text area*/
+.panel--votes .title{ font-size: 20px; font-weight: bold; }
+.panel--votes .meta{ margin: 10px 0; }
+.panel--votes .by,
+.panel--votes .timeago{ color: #999; }
+/*Filter bar*/
+.filters-bar{ margin: 10px 0; }
+.filters-bar .nav-pills li a{ padding: 2px 10px; }
+.filters-bar .nav-status{ margin-left: 5px; }
+
+.project-navbar{
+  background: transparent;
+  margin-left: 15px; margin-right: 15px;
+}
+.project-navbar.affix{
+  background: #f5f5f5;
+  top: 0; left: 0;
+  z-index: 1000;
+  width: 100%; margin: 0;
+  border-width: 0 0 1px;
+}
+.navbar .btn.pull-right{
+  margin-right: 20px;
+  padding: 6px 50px;
+  text-transform: uppercase;
+}
