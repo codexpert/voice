@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051) -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Xpert Voice</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Voice</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">DigiCom</a></li>
+            <li><a href="#about">OnePager</a></li>
+          </ul>
+          <a href="#" class="btn btn-default navbar-btn navbar-right"><span class="fa fa-github"></span> Login with GitHub</a>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div id="main">
+      <div class="container">
+
+        <div class="navbar navbar-default project-navbar" data-spy="affix" data-offset-top="60">
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+              <img src="https://s3.amazonaws.com/quantum-assets/logo-dark.png" alt="Brand" width="20px" height="20px" />
+            </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">
+              <span class="fa fa-lightbulb-o"></span> Ideas</a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-bug"></span> Issues</a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-list"></span> Changelogs</a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-life-ring"></span> Support</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-success navbar-btn pull-right">Submit Your Idea</a>
+        </div>
+
+        <div class="col-md-9">
+          <!-- Submit ideas + search -->
+          <div class="form-group has-feedback form--search">
+            <input type="text" class="form-control input-lg" placeholder="Search for existing ideas ...">
+            <span class="fa fa-lightbulb-o form-control-feedback" aria-hidden="true"></span>
+            <span id="inputSuccess2Status" class="sr-only">(success)</span>
+          </div>
+
+          <!-- Vote Panel -->
+          <div class="panel panel-default panel--votes panel--accepted">
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left votes">
+                  <div class="text-center thumbnail" data-votes-id="1">
+                    <span class="votes__count" data-votes-counter><strong>139</strong></span>
+                    <span class="votes__text">Votes</span>
+                  </div>
+                  <a href="#" class="btn btn-info btn-block btn--vote" data-vote-item>Vote</a>
+                </div>
+                <div class="media-body">
+                  <h2 class="media-heading title"><a href="#">Global Settings override facilities</a></h2>
+                  <div class="meta">
+                    <span class="label label-primary">General</span>
+                    <span class="label label-success">Accepted</span>
+                  </div>
+                  <p class="desc">Quick previous and next links for simple pagination implementations with light markup and styles. It's great for simple sites like blogs or magazines.</p>
+                  <div class="meta meta--footer clearfix">
+                    <span class="by text-muted">By:</span>
+                    <a class="author" href="#">
+                      <img src="http://www.gravatar.com/avatar/8c9aaae8b39d1036f844f218caf3995e?s=20?d=wavatar" alt="Parvez">
+                      Parvez Akther
+                    </a>
+                    <span class="timeago text-muted pull-right" title="Tuesday, 06 May 2014 14:15">Tuesday, 06 May 2014 14:15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Comments -->
+          <div class="comments">
+            <div class="panel panel-default panel--comments">
+              <div class="panel-body">
+                <div class="media">
+                  <div class="media-left">
+                    <img src="http://www.gravatar.com/avatar/8c9aaae8b39d1036f844f218caf3995e?s=40?d=wavatar" alt="Parvez">
+                  </div>
+                  <div class="media-body">
+                    <div class="meta">
+                      <span><a href="#">Parvez Akther</a> commented</span>
+                      <span class="timeago text-muted pull-right" title="Tuesday, 06 May 2014 14:15">Tuesday, 06 May 2014 14:15</span>
+                    </div>
+                    <p class="desc">I fixed the issue of accessible content. If anyone wants the my-memberships.php file with the code for the fix to link to accessible content, let me know.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default panel--comments">
+              <div class="panel-body">
+                <div class="media">
+                  <div class="media-left">
+                    <img src="http://www.gravatar.com/avatar/8c9aaae8b39d1036f844f218caf3995e?s=40?d=wavatar" alt="Parvez">
+                  </div>
+                  <div class="media-body">
+                    <div class="meta">
+                      <span><a href="#">Parvez Akther</a> commented</span>
+                      <span class="timeago text-muted pull-right" title="Tuesday, 06 May 2014 14:15">Tuesday, 06 May 2014 14:15</span>
+                    </div>
+                    <p class="desc">I fixed the issue of accessible content. If anyone wants the my-memberships.php file with the code for the fix to link to accessible content, let me know.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Comment box -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <img class="col-sm-1 control-label" src="http://www.gravatar.com/avatar/8c9aaae8b39d1036f844f218caf3995e?s=40?d=wavatar" alt="Parvez">
+                  <div class="col-sm-11">
+                    <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-1 col-sm-11">
+                    <button type="submit" class="btn btn-default">Comment</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+            <div class="well well-lg">
+              <p>Please search before submiting any new idea or feature request</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
+  </html>
