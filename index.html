@@ -46,40 +46,54 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">DigiCom</a></li>
-            <li><a href="#about">OnePager</a></li>
+            <li><a href="#">DigiCom</a></li>
+            <li class="active"><a href="#about">OnePager</a></li>
           </ul>
           <a href="#" class="btn btn-default navbar-btn navbar-right"><span class="fa fa-github"></span> Login with GitHub</a>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
+    <header id="header">
+      <div class="container">
+        <p class="text-center">
+          <a href="http://getonepager.com" target="_blank">
+            <img src="https://www.dropbox.com/s/99ndmshclsx3rb6/onepager_logo.png?dl=1" alt="Onepager">
+          </a>
+        </p>
+      </div>
+    </header>
+
     <div id="main">
       <div class="container">
-
-        <div class="navbar navbar-default project-navbar" data-spy="affix" data-offset-top="60">
+        <div class="navbar navbar-default project-navbar">
           <div class="navbar-header">
-            <a href="#" class="navbar-brand">
-              <img src="https://s3.amazonaws.com/quantum-assets/logo-dark.png" alt="Brand" width="20px" height="20px" />
-            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#project-navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
           </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">
-              <span class="fa fa-lightbulb-o"></span> Ideas</a>
-            </li>
-            <li>
-              <a href="#"><span class="fa fa-bug"></span> Issues</a>
-            </li>
-            <li>
-              <a href="#"><span class="fa fa-list"></span> Changelogs</a>
-            </li>
-            <li>
-              <a href="#"><span class="fa fa-life-ring"></span> Support</a>
-            </li>
-          </ul>
-          <a href="#" class="btn btn-success navbar-btn pull-right">Submit Your Idea</a>
-        </div>
 
+          <div id="project-navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">
+                <span class="fa fa-lightbulb-o"></span> Ideas</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-bug"></span> Issues</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-list"></span> Changelogs</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-life-ring"></span> Support</a>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-success navbar-btn pull-right">Submit Your Idea</a>
+          </div>
+        </div>
         <div class="col-md-9">
           <!-- Submit ideas + search -->
           <div class="form-group has-feedback form--search">
@@ -219,6 +233,10 @@
         </div>
       </div>
     </div>
+
+    <footer>
+      <p>Copyright &copy; ThemeXpert all rights reserved.</p>
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
